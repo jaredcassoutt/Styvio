@@ -1,0 +1,22 @@
+{
+  "name": "Styvio",
+  "version": "0.1.0",
+  "summary": "A short description of Styvio.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jaredcassoutt/Styvio",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jaredcassoutt": "jaredcass99@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jaredcassoutt/Styvio.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Styvio/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Styvio (0.1.0)
+
+DEPENDENCIES:
+  - Styvio (from `../`)
+
+EXTERNAL SOURCES:
+  Styvio:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Styvio: 18afde1fb1438823e8139adbefb52eade6ff2fd6
+
+PODFILE CHECKSUM: f33194960067f1b63c74ad4ecba1d5385e8645ff
+
+COCOAPODS: 1.10.1

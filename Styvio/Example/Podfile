@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Styvio_Tests' do
+  pod 'Styvio', :path => '../'
+  
+  
+end
