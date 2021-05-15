@@ -6,9 +6,9 @@
 //  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
-class StyvioAPI {
+public final class StyvioAPI {
     
-    func fetchStockInformation(stockName: String, success: @escaping(_ data:StockInformation)->(),failure:@escaping (_ error:Error)->()) {
+    public func fetchStockInformation(stockName: String, success: @escaping(_ data:StockInformation)->(),failure:@escaping (_ error:Error)->()) {
         let urlString = "https://www.styvio.com/api/\(stockName)"
         print(urlString)
         //create a url
@@ -46,7 +46,7 @@ class StyvioAPI {
         }
     }
     
-    func fetchSentimentInformation(stockName: String, success: @escaping(_ data:SentimentInformation)->(),failure:@escaping (_ error:Error)->()) {
+    public func fetchSentimentInformation(stockName: String, success: @escaping(_ data:SentimentInformation)->(),failure:@escaping (_ error:Error)->()) {
         let urlString = "https://www.styvio.com/api/sentiment/\(stockName)"
         print(urlString)
         //create a url
