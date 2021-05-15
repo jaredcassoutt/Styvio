@@ -1,0 +1,6 @@
+framework module Styvio {
+  umbrella header "Styvio-umbrella.h"
+
+  export *
+  module * { export * }
+}

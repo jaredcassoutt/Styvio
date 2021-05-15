@@ -1,42 +1,22 @@
-#
-# Be sure to run `pod lib lint Styvio.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
-Pod::Spec.new do |s|
-  s.name             = 'Styvio'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Styvio.'
+Pod::Spec.new do |spec|
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  spec.name         = "Styvio"
+  spec.version      = "0.0.1"
+  spec.summary      = "This serves as a JSON decoder for the Styvio stock API. It provides information to create everything featured on the Styvio app."
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.description  = <<-DESC
+    This serves as a JSON decoder for the Styvio stock API. It provides the necessary information to create each and every feature that is shown on the Styvio mobile app
+                   DESC
 
-  s.homepage         = 'https://github.com/jaredcassoutt/Styvio'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jaredcassoutt' => 'jaredcass99@gmail.com' }
-  s.source           = { :git => 'https://github.com/jaredcassoutt/Styvio.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.homepage     = "https://github.com/jaredcassoutt/styvio"
+  spec.license      = { :type => "MIT", :file => "LICENSE.txt" }
+  spec.author       = { "Jared Cassoutt" => "jaredcass99@gmail.com" }
 
-  s.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = "12.1"
+  spec.swift_version = "5.0"
 
-  s.source_files = 'Styvio/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Styvio' => ['Styvio/Assets/*.png']
-  # }
+  spec.source        = { :git => "https://github.com/jaredcassoutt/styvio.git", :tag => "#{spec.version}" }
+  spec.source_files  = "Styvio/**/*.{h,m,swift}"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

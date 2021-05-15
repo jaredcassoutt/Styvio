@@ -12,15 +12,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		357E7DE71C9E4EE2231332B1 /* Styvio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Styvio.podspec; path = ../Styvio.podspec; sourceTree = "<group>"; };
+		357E7DE71C9E4EE2231332B1 /* Styvio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Styvio.podspec; path = ../Styvio.podspec; sourceTree = "<group>"; };
 		4337925273031033FB04101C /* Pods-Styvio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Styvio_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Styvio_Tests/Pods-Styvio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Styvio_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Styvio_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8A8001B2B41C67A16A4A140E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A8001B2B41C67A16A4A140E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		975EEAC32EE8EECDB90E9F21 /* Pods-Styvio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Styvio_Tests.release.xcconfig"; path = "Target Support Files/Pods-Styvio_Tests/Pods-Styvio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B345B7942CD47A4252DDCE1B /* Pods_Styvio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Styvio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBD82A1D6163732471F35348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CBD82A1D6163732471F35348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D09267FE26506B6B00182721 /* StyvioAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyvioAPI.swift; sourceTree = "<group>"; };
+		D09267FF26506B9800182721 /* StockInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockInformation.swift; sourceTree = "<group>"; };
+		D092680026506BC300182721 /* SentimentInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,9 @@
 				357E7DE71C9E4EE2231332B1 /* Styvio.podspec */,
 				CBD82A1D6163732471F35348 /* README.md */,
 				8A8001B2B41C67A16A4A140E /* LICENSE */,
+				D09267FE26506B6B00182721 /* StyvioAPI.swift */,
+				D09267FF26506B9800182721 /* StockInformation.swift */,
+				D092680026506BC300182721 /* SentimentInformation.swift */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -87,7 +93,6 @@
 				4337925273031033FB04101C /* Pods-Styvio_Tests.debug.xcconfig */,
 				975EEAC32EE8EECDB90E9F21 /* Pods-Styvio_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,14 +136,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3L56DRQ363;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -147,6 +148,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -328,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4337925273031033FB04101C /* Pods-Styvio_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3L56DRQ363;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -342,7 +345,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Styvio_Example.app/Styvio_Example";
 			};
 			name = Debug;
 		};
@@ -350,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 975EEAC32EE8EECDB90E9F21 /* Pods-Styvio_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3L56DRQ363;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -360,7 +363,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Styvio_Example.app/Styvio_Example";
 			};
 			name = Release;
 		};
