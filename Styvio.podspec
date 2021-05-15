@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/jaredcassoutt/styvio"
-  spec.license      = { :type => "MIT", :file => "LICENSE.txt" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Jared Cassoutt" => "jaredcass99@gmail.com" }
 
   spec.ios.deployment_target = "12.1"
