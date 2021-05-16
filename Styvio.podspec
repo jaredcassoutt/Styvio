@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Styvio"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This is a Swift package that can be used to retrieve stock data from the Styvio API."
 
   spec.description  = <<-DESC
