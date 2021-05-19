@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53897DFE0B859A6146D87281E083127E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFA74F83B295410BAF22F2FFEF4AED /* ReplaceMe.swift */; };
+		53897DFE0B859A6146D87281E083127E /* StyvioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFA74F83B295410BAF22F2FFEF4AED /* StyvioAPI.swift */; };
 		75FC44D1B13C1B02679545BCBD82611A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8A29864E6CB776FE425CB8B761F1C5C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A72183738A06EAD192D0BEA7CD09D914 /* Styvio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D22B72BD3709443B00936379C8E8167 /* Styvio-dummy.m */; };
@@ -28,26 +28,26 @@
 
 /* Begin PBXFileReference section */
 		2F71028A87388DCFE0AECD85AC5732E7 /* Pods-Styvio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Styvio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30117217143A9FE1F64956ED51E1E18B /* Styvio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Styvio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30117217143A9FE1F64956ED51E1E18B /* Styvio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Styvio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4B12CB78E18BBE3B5079F4A73BBE1B40 /* Styvio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Styvio.debug.xcconfig; sourceTree = "<group>"; };
-		4D6B8C76A8D9F20D660EEEA0D21F6462 /* Pods_Styvio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Styvio_Tests.framework; path = "Pods-Styvio_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6B8C76A8D9F20D660EEEA0D21F6462 /* Pods_Styvio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Styvio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		616212A209C3BAF8B35A876134F9EDEA /* Pods-Styvio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Styvio_Tests-umbrella.h"; sourceTree = "<group>"; };
 		621527AC9A678B298B61CA40D1706CD6 /* Styvio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Styvio.modulemap; sourceTree = "<group>"; };
 		6734C4B369DFDD30C7FA815511443280 /* Pods-Styvio_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Styvio_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6AAA1820464E7A5021F139E98E6EE733 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6AAA1820464E7A5021F139E98E6EE733 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72A8F1F407B74C7D56DBE5D042CDF1AF /* Pods-Styvio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Styvio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D22B72BD3709443B00936379C8E8167 /* Styvio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Styvio-dummy.m"; sourceTree = "<group>"; };
 		8EFF5E0F52182EBDC94DCAE3E85A17EB /* Pods-Styvio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Styvio_Tests-dummy.m"; sourceTree = "<group>"; };
 		918B13E63EE60FBA7D1C7FAE43567962 /* Pods-Styvio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Styvio_Tests.modulemap"; sourceTree = "<group>"; };
 		9202EB3CB1C68C32B9E58B563F33E3F4 /* Styvio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Styvio-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADBFA74F83B295410BAF22F2FFEF4AED /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Styvio/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADBFA74F83B295410BAF22F2FFEF4AED /* StyvioAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyvioAPI.swift; path = Styvio/Classes/StyvioAPI.swift; sourceTree = "<group>"; };
 		AE4234DCBE1603A40227BF46B8AC8A93 /* Styvio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Styvio-umbrella.h"; sourceTree = "<group>"; };
 		B231EFCD407A4656E43E5757EF30EBF4 /* Styvio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Styvio-prefix.pch"; sourceTree = "<group>"; };
-		B9C667C1C78D8794221AE896938984F7 /* Styvio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Styvio.framework; path = Styvio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C667C1C78D8794221AE896938984F7 /* Styvio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Styvio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE924A0F4F0E6D36902EBADCB4A6BE1F /* Styvio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Styvio.release.xcconfig; sourceTree = "<group>"; };
-		CB2F0EA9E771D6553F3EAC8B8C0917D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB2F0EA9E771D6553F3EAC8B8C0917D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CC7DD30D7C6804A00CF4A813E0CF5A17 /* Pods-Styvio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Styvio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB547728F37A81E1D7F46D5B8E449A0F /* Pods-Styvio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Styvio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E645B41AAADE03C10E20A1CA4D65D8ED /* Pods-Styvio_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Styvio_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		F9CC0F45203BAC5DCF0123FFF17E5F38 /* Styvio */ = {
 			isa = PBXGroup;
 			children = (
-				ADBFA74F83B295410BAF22F2FFEF4AED /* ReplaceMe.swift */,
+				ADBFA74F83B295410BAF22F2FFEF4AED /* StyvioAPI.swift */,
 				C90A3E5201370E3DC1D8093F27110D09 /* Pod */,
 				8C7E460D2D09246EE58FFC7DA0D6C366 /* Support Files */,
 			);
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53897DFE0B859A6146D87281E083127E /* ReplaceMe.swift in Sources */,
+				53897DFE0B859A6146D87281E083127E /* StyvioAPI.swift in Sources */,
 				A72183738A06EAD192D0BEA7CD09D914 /* Styvio-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,8 +399,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
